@@ -7,9 +7,7 @@
 - (void)initialize
 {[self addObstacle];
     // your code here
-}character = (Character*)[CCBREader load:@"Character"];
-[physicsNode addChild:character];
-
+}
 -(void)update:(CCTime)delta
 {
     // put update code here
